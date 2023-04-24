@@ -1,0 +1,11 @@
+basic.forever(function () {
+    music.playMelody("E E F G G F E D ", 120)
+    music.playMelody("C C D E E D D - ", 120)
+    music.playMelody("E E F G G F E D ", 120)
+    music.playMelody("C C D E D C C - ", 120)
+    music.playMelody("D D E C D F E C ", 120)
+    music.playMelody("D F E D C D G - ", 120)
+    music.playMelody("E E F G G F E D ", 120)
+    music.playMelody("C C D E D C C - ", 120)
+    basic.pause(2000)
+})
